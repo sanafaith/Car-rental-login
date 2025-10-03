@@ -330,7 +330,7 @@ public class Main extends JFrame {
             System.out.println("Welcome, " + username + "!");
 
             JOptionPane.showMessageDialog(this,
-                    "Login Successful!\nWelcome to RentWheels, " + username + "!",
+                    "Login Successful!\nWelcome to Car rental login " + username + "!",
                     "Success",
                     JOptionPane.INFORMATION_MESSAGE);
 
@@ -425,7 +425,7 @@ public class Main extends JFrame {
         }
 
         System.out.println("=================================");
-        System.out.println("RENTWHEELS - CAR RENTAL SYSTEM");
+        System.out.println("CAR RENTAL SYSTEM");
         System.out.println("=================================");
         System.out.println("Valid Credentials:");
         System.out.println("Username: " + LoginCredentials.VALID_USERNAME);
